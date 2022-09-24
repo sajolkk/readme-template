@@ -7,20 +7,20 @@ Quotation Route API
 http://solverapps.solverbd.com/api/v4/quotation-request-store
  
 ### Data insert in quotation master table	
-|Column			| Data Type		| Requred 	|
+|Column			| Data Type		| Required 	|
 | --------- 	| --------- 	| ------- 	|
-|customer_id	| integer 		| - [x] Yes |
-|total_amount	| float/double 	| - [x] Yes |
-|discount		| float/double 	| - [x] Yes |
-|vat			| float/double 	| - [x] Yes |
-|vat_amount		| float/double 	| - [x] Yes |
-|vat_type		| var/string 	| - [x] Yes |
-|grand_amount	| float/double 	| - [x] Yes |
-|payment_option	| integer 		| - [x] Yes |
-|delivery_option| integer 		| - [x] Yes |
-|qut_format		| var/string 	| - [x] Yes |
-|format_qty		| var/string 	| - [x] Yes |
-|qut_type		| var/string 	| - [x] Yes |
+|customer_id	| integer 		|- [x] Yes |
+|total_amount	| float/double 	|- [x] Yes |
+|discount		| float/double 	|- [x] Yes |
+|vat			| float/double 	|- [x] Yes |
+|vat_amount		| float/double 	|- [x] Yes |
+|vat_type		| var/string 	|- [x] Yes |
+|grand_amount	| float/double 	|- [x] Yes |
+|payment_option	| integer 		|- [x] Yes |
+|delivery_option| integer 		|- [x] Yes |
+|qut_format		| var/string 	|- [x] Yes |
+|format_qty		| var/string 	|- [x] Yes |
+|qut_type		| var/string 	|- [x] Yes |
   
 
 ## Data insert in quotation details table
@@ -42,7 +42,7 @@ List Name: "product_list"
 http://solverapps.solverbd.com/api/v4/quotation-request-update
   
 ### Data insert in quotation master table	
-|Column			| Data Type		| Requred 	|
+|Column			| Data Type		| Required 	|
 | --------- 	| --------- 	| ------- 	|
 |customer_id	| integer 		| - [x] Yes |
 |total_amount	| float/double 	| - [x] Yes |
