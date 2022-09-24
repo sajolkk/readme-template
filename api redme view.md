@@ -1,6 +1,7 @@
 Quotation Route API
 
-- [X]
+- [x]
+
 ## New quotation request store api
 ### POST Method
   
