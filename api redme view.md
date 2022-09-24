@@ -10,7 +10,7 @@ http://solverapps.solverbd.com/api/v4/quotation-request-store
 ### Data insert in quotation master table	
 |Column			| Data Type		| Required 	|
 | --------- 	| --------- 	| ------- 	|
-|customer_id	| integer 		|- [x] Yes |
+|customer_id	| integer 		|- [x] Task1 |
 |total_amount	| float/double 	|- [x] Yes |
 |discount		| float/double 	|- [x] Yes |
 |vat			| float/double 	|- [x] Yes |
